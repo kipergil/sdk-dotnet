@@ -1,0 +1,10 @@
+/sdks/csharp_sdk/src/IO.Directus.Test/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/sdks/csharp_sdk/src/IO.Directus.Test/bin/Debug/IO.Directus.Test.pdb
+/sdks/csharp_sdk/src/IO.Directus.Test/bin/Debug/IO.Directus.Test.dll
+/sdks/csharp_sdk/src/IO.Directus.Test/obj/Debug/IO.Directus.Test.dll
+/sdks/csharp_sdk/src/IO.Directus.Test/obj/Debug/IO.Directus.Test.pdb
+/sdks/csharp_sdk/src/IO.Directus.Test/bin/Debug/Newtonsoft.Json.dll
+/sdks/csharp_sdk/src/IO.Directus.Test/bin/Debug/RestSharp.dll
+/sdks/csharp_sdk/src/IO.Directus.Test/bin/Debug/nunit.framework.dll
+/sdks/csharp_sdk/src/IO.Directus.Test/bin/Debug/IO.Directus.dll
+/sdks/csharp_sdk/src/IO.Directus.Test/bin/Debug/IO.Directus.pdb

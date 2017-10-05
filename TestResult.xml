@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="/sdks/csharp_sdk/src/IO.Directus.Test/bin/Debug/IO.Directus.Test.dll" total="317" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-10-03" time="21:49:30">
+  <environment nunit-version="2.6.4.14350" clr-version="4.0.30319.42000" os-version="Unix 4.4.8.2" platform="Unix" cwd="/sdks/csharp_sdk" machine-name="c7947be2eb9d" user="root" user-domain="c7947be2eb9d" />
+  <culture-info current-culture="" current-uiculture="" />
+  <test-suite type="Assembly" name="/sdks/csharp_sdk/src/IO.Directus.Test/bin/Debug/IO.Directus.Test.dll" executed="True" result="Success" success="True" time="0.263" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="IO" executed="True" result="Success" success="True" time="0.259" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Directus" executed="True" result="Success" success="True" time="0.259" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="0.259" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="ActivityApiTests" executed="True" result="Success" success="True" time="0.022" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.ActivityApiTests.GetActivityTest" executed="True" result="Success" success="True" time="0.014" asserts="0" />
+                      <test-case name="IO.Directus.Test.ActivityApiTests.InstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="BookmarksApiTests" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.BookmarksApiTests.AddBookmarkTest" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                      <test-case name="IO.Directus.Test.BookmarksApiTests.DeleteBookmarkTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.BookmarksApiTests.GetBookmarksSelfTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.BookmarksApiTests.GetBookmarksTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.BookmarksApiTests.GetBookmarkTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.BookmarksApiTests.InstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="FilesApiTests" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.FilesApiTests.CreateFileTest" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                      <test-case name="IO.Directus.Test.FilesApiTests.GetFilesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.FilesApiTests.GetFileTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.FilesApiTests.InstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.FilesApiTests.UpdateFileTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetActivityDataTests" executed="True" result="Success" success="True" time="0.007" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetActivityDataTests.ActionTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityDataTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityDataTests.DatetimeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityDataTests.GetActivityDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityDataTests.IdentifierTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityDataTests.RowIdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityDataTests.TableNameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityDataTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityDataTests.UserTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetActivityMetaTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetActivityMetaTests.GetActivityMetaInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityMetaTests.TableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityMetaTests.TotalTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityMetaTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetActivityTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetActivityTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityTests.GetActivityInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetActivityTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetBookmarksDataTests" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetBookmarksDataTests.ActiveTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksDataTests.GetBookmarksDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksDataTests.IconClassTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksDataTests.SectionTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksDataTests.TitleTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksDataTests.UrlTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksDataTests.UserTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetBookmarksMetaTests" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetBookmarksMetaTests.ActiveTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksMetaTests.DeleteTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksMetaTests.DraftTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksMetaTests.GetBookmarksMetaInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksMetaTests.TableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksMetaTests.TotalEntriesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksMetaTests.TotalTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksMetaTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetBookmarksTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetBookmarksTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksTests.GetBookmarksInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarksTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetBookmarkTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetBookmarkTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarkTests.GetBookmarkInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetBookmarkTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetFilesDataTests" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.ActiveTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.CaptionTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.CharsetTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.DateUploadedTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.EmbedIdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.GetFilesDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.HeightTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.LocationTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.NameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.SizeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.StorageAdapterTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.TagsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.TitleTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.UrlTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.UserTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesDataTests.WidthTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetFilesTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetFilesTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesTests.GetFilesInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFilesTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetFileTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetFileTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFileTests.GetFileInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetFileTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetGroupsDataDataTests" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetGroupsDataDataTests.DescriptionTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataDataTests.GetGroupsDataDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataDataTests.NameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataDataTests.NavOverrideTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataDataTests.RestrictToIpWhitelistTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataDataTests.ShowActivityTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataDataTests.ShowFilesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataDataTests.ShowMessagesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataDataTests.ShowUsersTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetGroupsDataMetaTests" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetGroupsDataMetaTests.GetGroupsDataMetaInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataMetaTests.TableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataMetaTests.TotalEntriesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataMetaTests.TotalTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataMetaTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetGroupsDataTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetGroupsDataTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataTests.GetGroupsDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsDataTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetGroupsTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetGroupsTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsTests.GetGroupsInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupsTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetGroupTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetGroupTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupTests.GetGroupInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetGroupTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetMessagesDataTests" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.AttachmentTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.DatetimeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.DateUpdatedTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.FromTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.GetMessagesDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.MessageTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.ReadTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.RecipientsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.ResponsesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.ResponseToTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesDataTests.SubjectTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetMessagesMetaTests" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetMessagesMetaTests.GetMessagesMetaInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesMetaTests.MaxIdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesMetaTests.ReadTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesMetaTests.TableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesMetaTests.TotalTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesMetaTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesMetaTests.UnreadTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetMessagesResponsesTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetMessagesResponsesTests.GetMessagesResponsesInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesResponsesTests.RowsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetMessagesTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetMessagesTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesTests.GetMessagesInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessagesTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetMessageTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetMessageTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessageTests.GetMessageInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetMessageTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetPreferencesDataTests" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetPreferencesDataTests.ColumnsVisibleTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesDataTests.GetPreferencesDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesDataTests.SearchStringTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesDataTests.SortOrderTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesDataTests.SortTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesDataTests.StatusTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesDataTests.TableNameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesDataTests.TitleTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesDataTests.UserTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetPreferencesTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetPreferencesTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesTests.GetPreferencesInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPreferencesTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetPrivilegesDataTests" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.AllowAddTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.AllowAlterTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.AllowDeleteTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.AllowEditTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.AllowViewTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.GetPrivilegesDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.GroupIdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.NavListedTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.ReadFieldBlacklistTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.StatusIdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.TableNameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesDataTests.WriteFieldBlacklistTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetPrivilegesForTableTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetPrivilegesForTableTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesForTableTests.GetPrivilegesForTableInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesForTableTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetPrivilegesTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetPrivilegesTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesTests.GetPrivilegesInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetPrivilegesTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetSettingsDataFilesTests" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetSettingsDataFilesTests.AllowedThumbnailsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataFilesTests.FileNamingTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataFilesTests.GetSettingsDataFilesInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataFilesTests.ThumbnailCropEnabledTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataFilesTests.ThumbnailQualityTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataFilesTests.ThumbnailSizeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataFilesTests.YoutubeApiKeyTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetSettingsDataGlobalTests" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetSettingsDataGlobalTests.CmsColorTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataGlobalTests.CmsThumbnailUrlTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataGlobalTests.CmsUserAutoSignOutTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataGlobalTests.GetSettingsDataGlobalInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataGlobalTests.ProjectNameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataGlobalTests.ProjectUrlTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataGlobalTests.RowsPerPageTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetSettingsDataTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetSettingsDataTests.FilesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataTests.GetSettingsDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsDataTests.GlobalTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetSettingsForMetaTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetSettingsForMetaTests.GetSettingsForMetaInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsForMetaTests.SettingsCollectionTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsForMetaTests.TableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsForMetaTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetSettingsForTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetSettingsForTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsForTests.GetSettingsForInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsForTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetSettingsTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetSettingsTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsTests.GetSettingsInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetSettingsTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTableColumnDataTests" executed="True" result="Success" success="True" time="0.008" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.CharLengthTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.ColumnNameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.ColumnTypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.CommentTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.GetTableColumnDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.HiddenInputTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.HiddenListTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.IsNullableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.IsWritableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.MasterTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.OptionsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.RequiredTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.SortTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.SystemTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnDataTests.UiTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTableColumnsDataTests" executed="True" result="Success" success="True" time="0.012" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.ColumnNameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.CommentTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.DefaultValueTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.ExtraOptionsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.GetTableColumnsDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.HiddenInputTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.HiddenListTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.KeyTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.LengthTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.NameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.NullableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.OptionsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.PrecisionTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.RelationshipTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.RequiredTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.ScaleTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.SortTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.TableNameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsDataTests.UiTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTableColumnsTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTableColumnsTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsTests.GetTableColumnsInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnsTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTableColumnTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTableColumnTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnTests.GetTableColumnInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableColumnTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTableDataTests" executed="True" result="Success" success="True" time="0.012" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTableDataTests.ColumnGroupingsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.ColumnsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.CommentTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.CreatedAtTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.DateCreateColumnTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.DateCreatedTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.DateUpdateColumnTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.DefaultStatusTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.FilterColumnBlacklistTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.FooterTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.GetTableDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.HiddenTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.ListViewTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.NameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.PreferencesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.PrimaryColumnTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.RowCountTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.SchemaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.SingleTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.TableNameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.UserCreateColumnTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableDataTests.UserUpdateColumnTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTableRowsDataTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTableRowsDataTests.ActiveTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsDataTests.GetTableRowsDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsDataTests.IdTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTableRowsMetaTests" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTableRowsMetaTests.ActiveTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsMetaTests.DeleteTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsMetaTests.DraftTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsMetaTests.GetTableRowsMetaInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsMetaTests.TableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsMetaTests.TotalEntriesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsMetaTests.TotalTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsMetaTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTableRowsTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTableRowsTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsTests.GetTableRowsInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowsTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTableRowTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTableRowTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowTests.GetTableRowInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableRowTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTablesDataTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTablesDataTests.GetTablesDataInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTablesDataTests.NameTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTablesMetaTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTablesMetaTests.GetTablesMetaInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTablesMetaTests.TableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTablesMetaTests.TypeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTablesTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTablesTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTablesTests.GetTablesInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTablesTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GetTableTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GetTableTests.DataTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableTests.GetTableInstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GetTableTests.MetaTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="GroupsApiTests" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.GroupsApiTests.AddGroupTest" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                      <test-case name="IO.Directus.Test.GroupsApiTests.AddPrivilegeTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GroupsApiTests.GetGroupsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GroupsApiTests.GetGroupTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GroupsApiTests.GetPrivilegesForTableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GroupsApiTests.GetPrivilegesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GroupsApiTests.InstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.GroupsApiTests.UpdatePrivilegesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="MessagesApiTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.MessagesApiTests.GetMessagesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.MessagesApiTests.GetMessageTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.MessagesApiTests.InstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="PreferencesApiTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.PreferencesApiTests.GetPreferencesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.PreferencesApiTests.InstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.PreferencesApiTests.UpdatePreferencesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="SettingsApiTests" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.SettingsApiTests.GetSettingsForTest" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                      <test-case name="IO.Directus.Test.SettingsApiTests.GetSettingsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.SettingsApiTests.InstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.SettingsApiTests.UpdateSettingsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TablesApiTests" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.TablesApiTests.AddColumnTest" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.AddRowTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.AddTableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.DeleteColumnTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.DeleteRowTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.DeleteTableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.GetTableColumnsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.GetTableColumnTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.GetTableRowsTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.GetTableRowTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.GetTablesTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.GetTableTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.InstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.UpdateColumnTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.TablesApiTests.UpdateRowTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="UtilsApiTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="IO.Directus.Test.UtilsApiTests.GetHashTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.UtilsApiTests.GetRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="IO.Directus.Test.UtilsApiTests.InstanceTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

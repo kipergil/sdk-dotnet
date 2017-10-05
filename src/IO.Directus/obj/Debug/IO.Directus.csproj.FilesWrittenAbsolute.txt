@@ -1,0 +1,7 @@
+/sdks/csharp_sdk/src/IO.Directus/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/sdks/csharp_sdk/src/IO.Directus/bin/Debug/IO.Directus.pdb
+/sdks/csharp_sdk/src/IO.Directus/bin/Debug/IO.Directus.dll
+/sdks/csharp_sdk/src/IO.Directus/obj/Debug/IO.Directus.dll
+/sdks/csharp_sdk/src/IO.Directus/obj/Debug/IO.Directus.pdb
+/sdks/csharp_sdk/src/IO.Directus/bin/Debug/Newtonsoft.Json.dll
+/sdks/csharp_sdk/src/IO.Directus/bin/Debug/RestSharp.dll
