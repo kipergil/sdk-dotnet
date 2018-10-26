@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-  Directus Swift SDK
+  Directus .NET/C# SDK
 </h1>
 
 <h3 align="center">
