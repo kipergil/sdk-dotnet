@@ -121,7 +121,7 @@ All URIs are relative to your configured base path, as per example.
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *ActivityApi* | [**GetActivity**](docs/ActivityApi.md#getactivity) | **GET** /activity | Returns activity
-*BookmarksApi* | [**AddBookmark**](docs/BookmarksApi.md#addbookmark) | **POST** /bookmarks | Create a column in a given table
+*BookmarksApi* | [**AddBookmark**](docs/BookmarksApi.md#addbookmark) | **POST** /bookmarks | Create a bookmark
 *BookmarksApi* | [**DeleteBookmark**](docs/BookmarksApi.md#deletebookmark) | **DELETE** /bookmarks/{bookmarkId} | Deletes specific bookmark
 *BookmarksApi* | [**GetBookmark**](docs/BookmarksApi.md#getbookmark) | **GET** /bookmarks/{bookmarkId} | Returns specific bookmark
 *BookmarksApi* | [**GetBookmarks**](docs/BookmarksApi.md#getbookmarks) | **GET** /bookmarks | Returns bookmarks
